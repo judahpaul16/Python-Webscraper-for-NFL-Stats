@@ -1,1 +1,1 @@
-# Python-Webscraper-for-NFL-Stats
+# Webscraper-for-NFL-Stats
