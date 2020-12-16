@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from tkinter import simpledialog as tk_input
 from tkinter import messagebox, Frame, Label, Entry, StringVar
 import tkinter as tk
@@ -75,10 +73,6 @@ def center(master):
 def main():
 
     user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36'
-    headers = {'User-Agent': user_agent}
-    context = ssl.SSLContext()
-
-    # initialize input variables
     year = ''
     week = ''
     seasonType = ''
@@ -250,5 +244,6 @@ if os.path.getsize('sports_stats.csv') == 0:
             'Total YDS (Away)',
         ]
     )
+    
 file.close()
 main()
